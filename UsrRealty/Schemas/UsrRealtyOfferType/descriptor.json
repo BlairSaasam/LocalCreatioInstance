@@ -8,6 +8,7 @@
       "Name": "BaseLookup"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Realty offer type"
+    "Caption": "Realty offer type",
+    "DependsOn": []
   }
 }

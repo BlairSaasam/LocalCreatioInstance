@@ -13,9 +13,9 @@
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.9f134179-00bb-4990-bfb8-77b1662f26c5.displayValue" Value="Auto added visit" />
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.9f134179-00bb-4990-bfb8-77b1662f26c5.value" Value="Auto added visit" />
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Created record Id" />
-			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="N &gt; 0" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="No.Records &gt; I" />
 			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="N == 0" />
-			<Item Name="BaseElements.FormulaTask1.Caption" Value="N = N - 1" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="I - I + 1" />
 			<Item Name="BaseElements.FormulaTask2.Caption" Value="Set realty ID" />
 			<Item Name="BaseElements.FormulaTask3.Caption" Value="Set realty ID" />
 			<Item Name="BaseElements.StartSignal1.Caption" Value="Realty created" />
@@ -27,8 +27,10 @@
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
-			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="N" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="No.Records" />
 			<Item Name="Parameters.ProcessSchemaParameter1.DisplayValue" Value="3" />
+			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="I" />
+			<Item Name="Parameters.ProcessSchemaParameter2.DisplayValue" Value="0" />
 			<Item Name="Parameters.RealtyId.Caption" Value="Realty Id" />
 		</Items>
 	</Group>

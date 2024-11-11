@@ -108,6 +108,21 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 			},
 			{
 				"operation": "insert",
+				"name": "GetMinPriceWebServiceMenuItem",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_34hboe7_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "usr.RunWebServiceButtonMin"
+					}
+				},
+				"parentName": "ActionsButton",
+				"propertyName": "menuItems",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "PushMeButton",
 				"values": {
 					"type": "crt.Button",
@@ -139,7 +154,8 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 					"type": "crt.Input",
 					"label": "$Resources.Strings.UsrName",
 					"control": "$UsrName",
-					"labelPosition": "auto"
+					"labelPosition": "auto",
+					"multiline": false
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
@@ -799,7 +815,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 							"MySuperValidator": {
 								"type": "usr.DGValidator",
 								"params": {
-									"minValue": 50,
+									"minValue": 0,
 									"message": "#ResourceString(PriceCannotBeLess)#"
 								}
 							}
@@ -813,7 +829,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 							"MySuperValidator": {
 								"type": "usr.DGValidator",
 								"params": {
-									"minValue": 100,
+									"minValue": 0,
 									"message": "#ResourceString(AreaCannotBeLess)#"
 								}
 							}
@@ -832,6 +848,11 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
 					"PDS_UsrComment_3zgops6": {
 						"modelConfig": {
 							"path": "PDS.UsrComment"
+						},
+						"validators": {
+							"required": {
+								"type": "crt.Required"
+							}
 						}
 					},
 					"PDS_UsrManager_o33822z": {
@@ -1004,19 +1025,27 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
               request: "crt.HandleViewModelAttributeChangeRequest",
               /* The custom implementation of the system query handler. */
               handler: async (request, next) => { 
-                if (request.attributeName === 'PDS_UsrPriceEUR_l61bqlx' ||
-                    // if price changed
-                    request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent' ) { 	
-                  // or percent changed
-                  var price = await request.$context.PDS_UsrPriceEUR_l61bqlx;
-                  var percent = await request.$context.PDS_UsrOfferTypeUsrCommissionPercent;
-                  var commission = price * percent / 100;
-                  request.$context.PDS_UsrCommissionEUR_iomoyic = commission;
-	                }
-					/* Call the next handler if it exists and return its result. */		
+                if (request.attributeName === 'PDS_UsrPriceEUR_l61bqlx' || request.attributeName === 'PDS_UsrOfferTypeUsrCommissionPercent' ) { 	
+					var price = await request.$context.PDS_UsrPriceEUR_l61bqlx;
+					var percent = await request.$context.PDS_UsrOfferTypeUsrCommissionPercent;
+					var commission = price * percent / 100;
+					request.$context.PDS_UsrCommissionEUR_iomoyic = commission;
+				}
+				if (request.attributeName === 'PDS_UsrPriceEUR_l61bqlx' ){
+					var price = await request.$context.PDS_UsrPriceEUR_l61bqlx;
+					console.log("Price value: " + price);
+					var minPriceSysSetting = Terrasoft.SysSettings.cachedSettings.MinPriceToRequireRealtyComment;
+					if (price > minPriceSysSetting) {
+						request.$context.enableAttributeValidator('PDS_UsrComment_3zgops6', 'required');
+					  } else {
+						request.$context.disableAttributeValidator('PDS_UsrComment_3zgops6', 'required');
+					}
+				}
+				/* Call the next handler if it exists and return its result. */		
                 return next?.handle(request);
               }	
             },
+
             {
               request: "usr.RunWebServiceButtonRequest",
               /* Implementation of the custom query handler. */
@@ -1062,7 +1091,55 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
                /* Call the next handler if it exists and return its result. */
                return next?.handle(request);
              }
-           }
+           },
+
+		   {
+			request: "usr.RunWebServiceButtonMin",
+			/* Implementation of the custom query handler. */
+			handler: async (request, next) => {                
+			console.log("Run web service button works...");
+			  
+			// get id from type lookup type object
+			 var typeObject = await request.$context.PDS_UsrType_zxaxg8h;
+			 var typeId = "";
+			 if (typeObject) {
+			   typeId = typeObject.value;
+			 }
+			  
+			// get id from type lookup offer type object
+			 var offerTypeObject = await request.$context.PDS_UsrOfferType_yian6ti;
+			 var offerTypeId = "";
+			 if (offerTypeObject) {
+			   offerTypeId = offerTypeObject.value;
+			 }
+			  
+		   /* Create an instance of the HTTP client from @creatio-devkit/common. */
+			 const httpClientService = new sdk.HttpClientService();
+			  
+			/* Specify the URL to run web service method. */
+			 const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+			 const transferName = "rest";
+			 const serviceName = "RealtyService";
+			 const methodName = "GetMinPriceByTypeId";
+			 const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);  
+			  
+			 //const endpoint = "http://localhost/D1_Studio/0/rest/RealtyService/GetMaxPriceByTypeId";
+			 /* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+			 var params = {
+			   realtyTypeId: typeId,
+			   realtyOfferTypeId: offerTypeId,
+			   entityName: "UsrRealty"
+			 };
+			const response = await httpClientService.post(endpoint, params);
+
+			console.log(typeId + " " + offerTypeId);
+			console.log("response min price = " + response.body.GetMinPriceByTypeIdResult);
+			  
+			 /* Call the next handler if it exists and return its result. */
+			 return next?.handle(request);
+		   }
+		 }
+
         ]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{
@@ -1073,7 +1150,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA
               return function (control) {
                 let value = control.value;
                 let minValue = config.minValue;
-                let valueIsCorrect = value >= minValue;
+                let valueIsCorrect = value > minValue;
                 var result;
                 if (valueIsCorrect) {
                   result = null;

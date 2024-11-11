@@ -4,6 +4,7 @@
     "Name": "UsrRealtyBusinessRule",
     "ModifiedOnUtc": "\/Date(1729632090000)\/",
     "ManagerName": "AddonSchemaManager",
-    "Caption": "Realty (Business rules)"
+    "Caption": "Realty (Business rules)",
+    "DependsOn": []
   }
 }

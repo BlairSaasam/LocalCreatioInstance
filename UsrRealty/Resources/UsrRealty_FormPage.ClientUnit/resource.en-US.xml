@@ -9,6 +9,7 @@
 			<Item Name="LocalizableStrings.addRecord_gx1n3it_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_udleg2h_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_y5xdwkl_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.AreaCannotBeLess.Value" Value="Area must be greater than 0" />
 			<Item Name="LocalizableStrings.Button_9sdhnm5_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Button_pd4ploz_caption.Value" Value="Push me!" />
 			<Item Name="LocalizableStrings.ExpansionPanel_ru84pr3_title.Value" Value="Realty visit" />
@@ -18,9 +19,11 @@
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_8ws302s_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_h8dk5hs_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_kx86nph_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.MenuItem_34hboe7_caption.Value" Value="Get min price web service call" />
 			<Item Name="LocalizableStrings.MenuItem_adbkinz_caption.Value" Value="Calculate average price process" />
 			<Item Name="LocalizableStrings.MenuItem_scv9xvl_caption.Value" Value="Get max price web service call" />
 			<Item Name="LocalizableStrings.NumberInput_2u05cps_label.Value" Value="Commission Percentage" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price must be greater than 0" />
 		</Items>
 	</Group>
 </Resources>

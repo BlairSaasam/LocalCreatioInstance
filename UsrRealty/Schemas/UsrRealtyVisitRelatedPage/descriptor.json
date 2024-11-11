@@ -4,6 +4,7 @@
     "Name": "UsrRealtyVisitRelatedPage",
     "ModifiedOnUtc": "\/Date(1729723832000)\/",
     "ManagerName": "AddonSchemaManager",
-    "Caption": "Realty Visit (Page settings)"
+    "Caption": "Realty Visit (Page settings)",
+    "DependsOn": []
   }
 }

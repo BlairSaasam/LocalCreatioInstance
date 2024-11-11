@@ -31,6 +31,24 @@ namespace Terrasoft.Configuration
     }
 
     [OperationContract]
+    [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Wrapped, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+    public decimal GetMinPriceByTypeId(string realtyTypeId, string realtyOfferTypeId, string entityName)
+    {
+      if (string.IsNullOrEmpty(realtyTypeId) || string.IsNullOrEmpty(realtyOfferTypeId) || string.IsNullOrEmpty(entityName))
+      {
+        return -1;
+      }
+      Select select = new Select(UserConnection)
+      .Column(Func.Min("UsrPriceEUR"))
+      .From(entityName)
+      .Where("UsrTypeId").IsEqual(Column.Parameter(new Guid(realtyTypeId)))          
+      .And("UsrOfferTypeId").IsEqual(Column.Parameter(new Guid(realtyOfferTypeId)))             
+      as Select;
+      decimal result = select.ExecuteScalar<decimal>();
+      return result;
+    }
+
+    [OperationContract]
     [WebInvoke(Method = "GET", BodyStyle = WebMessageBodyStyle.Wrapped, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
     public string GetExample()
     {

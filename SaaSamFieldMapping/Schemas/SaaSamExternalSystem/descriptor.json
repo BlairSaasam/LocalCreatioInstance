@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "fa2d480d-48ee-4b6a-8404-c2b45f69e172",
+    "Name": "SaaSamExternalSystem",
+    "ModifiedOnUtc": "\/Date(1731965344000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "External Systems",
+    "DependsOn": []
+  }
+}

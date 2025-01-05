@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Số tiền" />
+			<Item Name="Columns.Currency.Caption" Value="Tiền tệ" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Tỷ giá" />
+			<Item Name="Columns.Order.Caption" Value="Yêu cầu" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Số lượng, tiền tệ cơ sở" />
+		</Items>
+	</Group>
+</Resources>

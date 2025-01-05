@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="hr-HR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Iznos" />
+			<Item Name="Columns.Currency.Caption" Value="Valuta" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Tečaj" />
+			<Item Name="Columns.Order.Caption" Value="Narudžba" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Iznos, osnovna valuta" />
+		</Items>
+	</Group>
+</Resources>

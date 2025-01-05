@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cf71808e-a27d-4712-b5de-20269b8f817a",
+    "Name": "SaaSamFieldMapping_ListPage",
+    "ModifiedOnUtc": "\/Date(1733868478000)\/",
+    "Parent": {
+      "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
+      "Name": "ListPageV2Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Field Mapping list page"
+  }
+}

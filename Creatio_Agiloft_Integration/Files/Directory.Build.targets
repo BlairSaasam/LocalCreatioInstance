@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/Creatio_Agiloft_Integration/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/Creatio_Agiloft_Integration/Data/**" />
+		<Compile Remove="$(PkgPath)/Creatio_Agiloft_Integration/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/Creatio_Agiloft_Integration/Schemas\**" />
+		<Compile Remove="$(PkgPath)/Creatio_Agiloft_Integration/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Creatio_Agiloft_Integration/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Creatio_Agiloft_Integration/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Creatio_Agiloft_Integration/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Creatio_Agiloft_Integration/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Creatio_Agiloft_Integration/Resources/**" />
+		<None Remove="$(PkgPath)/Creatio_Agiloft_Integration/Assemblies/**" />
+		<None Remove="$(PkgPath)/Creatio_Agiloft_Integration/Data/**" />
+		<None Remove="$(PkgPath)/Creatio_Agiloft_Integration/SqlScripts/**" />
+		<None Remove="$(PkgPath)/Creatio_Agiloft_Integration/Schemas/**" />
+		<None Remove="$(PkgPath)/Creatio_Agiloft_Integration/Resources/**" />
+  </ItemGroup>
+</Project>

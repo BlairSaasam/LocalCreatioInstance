@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1c135f00-2d78-4b39-980b-f292d9e36849",
+    "Name": "SaaSamMappingTableBusinessRule",
+    "ModifiedOnUtc": "\/Date(1731965755000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Field Mapping Table (Business rules)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,70 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+      "A2": "SaaSamRetrieveDataFromAgiloft",
+      "A5": "8553730d-4f05-43ca-9612-dbed220acce0",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "3c9ccc73-d99c-8e75-726b-8c420f549936",
+      "B8": "8.1.5.2177",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7836bc7d-d359-58e3-8c6b-31b767b26207",
+          "A2": "SaaSamAgiloftRecordId",
+          "A3": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "A4": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "422d5529-06bd-fe24-2cf7-9174b179d2f6",
+          "A2": "SaaSamExternalDataSourceId",
+          "A3": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "A4": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "57655b2a-bc49-33aa-54dc-20c12710e088",
+          "A2": "SaaSamExternalSystemId",
+          "A3": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "A4": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "87eaef97-81cb-9162-6524-2fb64878fdb7",
+          "A2": "SaaSamRecordId",
+          "A3": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "A4": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "d377d840-5639-9a9e-2492-f7e46064603f",
+          "A2": "SaaSamTable",
+          "A3": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "A4": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false
+        }
+      ],
+      "FK7": true,
+      "FK12": "#839DC3",
+      "FK16": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ar-SA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="القيمة" />
+			<Item Name="Columns.Currency.Caption" Value="عملة" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="سعر الصرف" />
+			<Item Name="Columns.Order.Caption" Value="طلب" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="القيمة، عملة أساسية" />
+		</Items>
+	</Group>
+</Resources>

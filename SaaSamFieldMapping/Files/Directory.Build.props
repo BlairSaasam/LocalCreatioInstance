@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamAvailableCreatioTables/SaaSamAvailableCreatioTables.cs" Condition="Exists('$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamAvailableCreatioTables/SaaSamAvailableCreatioTables.cs')" />
+		<Compile Include="$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamExternalSystem/SaaSamExternalSystem.cs" Condition="Exists('$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamExternalSystem/SaaSamExternalSystem.cs')" />
+		<Compile Include="$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamExternalSystemDataSource/SaaSamExternalSystemDataSource.cs" Condition="Exists('$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamExternalSystemDataSource/SaaSamExternalSystemDataSource.cs')" />
+		<Compile Include="$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamMappingTable/SaaSamMappingTable.cs" Condition="Exists('$(PkgPath)/SaaSamFieldMapping/Schemas/SaaSamMappingTable/SaaSamMappingTable.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cfeb425a-e465-4eef-828c-c362c561482b",
+    "Name": "SaaSamFieldMappingModal",
+    "ModifiedOnUtc": "\/Date(1734308423000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Field Mapping Modal Page"
+  }
+}

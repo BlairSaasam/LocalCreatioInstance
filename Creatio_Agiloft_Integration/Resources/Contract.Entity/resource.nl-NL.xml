@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="nl-NL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Bedrag" />
+			<Item Name="Columns.Currency.Caption" Value="Valuta" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Wisselkoers" />
+			<Item Name="Columns.Order.Caption" Value="Order" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Bedrag,basisvaluta" />
+		</Items>
+	</Group>
+</Resources>

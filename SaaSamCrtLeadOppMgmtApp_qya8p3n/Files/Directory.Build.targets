@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Data/**" />
+		<Compile Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Schemas\**" />
+		<Compile Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Resources/**" />
+		<None Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Assemblies/**" />
+		<None Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Data/**" />
+		<None Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/SqlScripts/**" />
+		<None Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Schemas/**" />
+		<None Remove="$(PkgPath)/SaaSamCrtLeadOppMgmtApp_qya8p3n/Resources/**" />
+  </ItemGroup>
+</Project>

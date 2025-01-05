@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.SaaSamAgiloftId.Caption" Value="Agiloft ID" />
+			<Item Name="Columns.SaaSamCheckbox.Caption" Value="Checkbox" />
+			<Item Name="EventsProcessSchema.BaseElements.ContractDeleting.Caption" Value="ContractDeleting" />
+			<Item Name="EventsProcessSchema.BaseElements.ContractSaving.Caption" Value="ContractSaving" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptContractDeleting.Caption" Value="Contract pre-deletion" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptContractSaved.Caption" Value="Contract save post-processing" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptContractSaving.Caption" Value="Contract pre-saving" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptTask5_818d7a8b611c4912b3fa63c9a57f6e01.Caption" Value="Contract pre-deletion" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage1.Caption" Value="ContractSaved" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage3_6c0128e828b04c7faaed2b0f48f74b31.Caption" Value="ContractSaving" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage4_a3a48f7a8d6d453ab854bd453247c2d9.Caption" Value="ContractSaved" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage5_50460d819d46462286d944e8e6a646ca.Caption" Value="ContractDeleting" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_bcbca953816b4457b288a6c5b39df9be.Caption" Value="LaneSet 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_bcbca953816b4457b288a6c5b39df9be.Lanes.Lane_68f648300e9241cc901fe34a93f21a25.Caption" Value="Lane 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

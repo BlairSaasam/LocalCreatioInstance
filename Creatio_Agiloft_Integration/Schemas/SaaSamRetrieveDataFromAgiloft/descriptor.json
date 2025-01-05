@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "b5a6d447-1352-49ba-bac9-b25d57712d4d",
+    "Name": "SaaSamRetrieveDataFromAgiloft",
+    "ModifiedOnUtc": "\/Date(1734558238000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "Retrieve Data From Agiloft"
+  }
+}

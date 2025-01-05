@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Field Mapping Table" />
+			<Item Name="Columns.SaaSamCreatioFieldCode.Caption" Value="Creatio Field Code" />
+			<Item Name="Columns.SaaSamCreatioLookupFieldCode.Caption" Value="Creatio Lookup Field Code" />
+			<Item Name="Columns.SaaSamCreatioLookupObject.Caption" Value="Creatio Lookup Object" />
+			<Item Name="Columns.SaaSamCreatioObject.Caption" Value="Creatio Object" />
+			<Item Name="Columns.SaaSamExternalFieldCode.Caption" Value="External Field Code" />
+			<Item Name="Columns.SaaSamExternalSystemDataSource.Caption" Value="External System Data Source" />
+			<Item Name="Columns.SaaSamExternalSystemName.Caption" Value="External System Name" />
+			<Item Name="Columns.SaaSamIsLookup.Caption" Value="Is this a lookup?" />
+			<Item Name="Columns.SaaSamRequiresSpecialFormatting.Caption" Value="Requires Special Formatting" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

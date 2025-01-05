@@ -1,0 +1,85 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "b6484c79-82d8-4547-9223-bb6042f7361a",
+      "A2": "SaaSamSendDataToAgiloft",
+      "A5": "8553730d-4f05-43ca-9612-dbed220acce0",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "3c9ccc73-d99c-8e75-726b-8c420f549936",
+      "B8": "8.1.5.2177",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "d9502a1e-7375-f9fc-e910-74cd39daa3d3",
+          "A2": "SaaSamRecordId",
+          "A3": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "A4": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L6": true,
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "9222541f-699a-34bf-3a3e-98752d74df91",
+          "A2": "SaaSamTable",
+          "A3": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "A4": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L6": true,
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "9db04371-e042-c889-7c7f-884851c94205",
+          "A2": "SaaSamExternalSystemId",
+          "A3": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "A4": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L6": true,
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "16590402-1b4b-3c12-aaf9-1f104b078abd",
+          "A2": "SaaSamExternalDataSourceId",
+          "A3": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "A4": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L6": true,
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "cb699da0-2f0e-d620-1744-23f981c02604",
+          "A2": "SaaSamAgiloftRecordId",
+          "A3": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "A4": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "691f310c-1b3f-c4da-1640-fdb55ab70036",
+          "A2": "SaaSamTestStr",
+          "A3": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "A4": "b6484c79-82d8-4547-9223-bb6042f7361a",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false
+        }
+      ],
+      "FK11": "6fb9366f-d218-4845-b1f3-50dedeeac9d0",
+      "FK7": true,
+      "FK12": "#839DC3",
+      "FK16": true
+    }
+  }
+}

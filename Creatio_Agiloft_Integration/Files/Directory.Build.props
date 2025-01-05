@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/Creatio_Agiloft_Integration/Schemas/Contract/Contract.cs" Condition="Exists('$(PkgPath)/Creatio_Agiloft_Integration/Schemas/Contract/Contract.cs')" />
+	</ItemGroup>
+</Project>

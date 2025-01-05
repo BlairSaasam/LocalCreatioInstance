@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="External Systems" />
+			<Item Name="Columns.SaaSamExternalSystemTokenUrl.Caption" Value="Token/Url/Etc" />
+			<Item Name="Columns.SaaSamExternalSystemTokenUrl.Description" Value="For holding links or tokens to external systems" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,388 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "184c45fa-b342-410f-af99-46bb47a9b079"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "StartDate"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "contract_start_date"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": false
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1864fe73-2fb1-4518-9df0-d646c80b1891"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "EndDate"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "contract_end_date"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": false
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1be0c95c-d4ed-4a89-b05f-85213d910698"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "Notes"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "ongoing_notes"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": false
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8e1c827a-c76e-4d2e-8c44-c6399d331b2f"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "OwnerId"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": "Name"
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "contract_owner_email"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "1ad6c9e9-ae79-45c7-9304-4f7472449c79",
+          "DisplayValue": "Contact"
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a5780b43-5112-493c-a4f1-39fce6962c22"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "Number"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "contract_title1"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": false
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "b8a44699-c27c-4843-9984-99676727acce"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "Amount"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "contract_amount"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": false
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "c7f1de83-c6b4-4d4b-be0b-4e2cefcd5dbb"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "SaaSamAgiloftId"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "id"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": false
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e35dc8a8-4b27-4397-a7dd-c6e34c7e65b1"
+        },
+        {
+          "SchemaColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+          "Value": "95653eb6-54d3-47b2-8b45-457ea62f3533",
+          "DisplayValue": "Agiloft SaaSam"
+        },
+        {
+          "SchemaColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+          "Value": "Id"
+        },
+        {
+          "SchemaColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+          "Value": "creatio_id"
+        },
+        {
+          "SchemaColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+          "Value": true
+        },
+        {
+          "SchemaColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+          "Value": "42c33534-9010-4ae6-b651-23832d401d14",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f",
+          "DisplayValue": "Contract"
+        },
+        {
+          "SchemaColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+          "Value": false
+        }
+      ]
+    }
+  ]
+}

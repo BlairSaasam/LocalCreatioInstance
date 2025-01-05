@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/SaaSamFieldMapping/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/SaaSamFieldMapping/Data/**" />
+		<Compile Remove="$(PkgPath)/SaaSamFieldMapping/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/SaaSamFieldMapping/Schemas\**" />
+		<Compile Remove="$(PkgPath)/SaaSamFieldMapping/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamFieldMapping/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamFieldMapping/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamFieldMapping/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamFieldMapping/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/SaaSamFieldMapping/Resources/**" />
+		<None Remove="$(PkgPath)/SaaSamFieldMapping/Assemblies/**" />
+		<None Remove="$(PkgPath)/SaaSamFieldMapping/Data/**" />
+		<None Remove="$(PkgPath)/SaaSamFieldMapping/SqlScripts/**" />
+		<None Remove="$(PkgPath)/SaaSamFieldMapping/Schemas/**" />
+		<None Remove="$(PkgPath)/SaaSamFieldMapping/Resources/**" />
+  </ItemGroup>
+</Project>

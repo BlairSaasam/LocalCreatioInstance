@@ -1,0 +1,84 @@
+﻿{
+  "Descriptor": {
+    "UId": "36b6556a-e334-56a4-fdfc-eb1af4ef6f4c",
+    "Name": "SaaSamMappingTableTmp",
+    "ModifiedOnUtc": "\/Date(1733862196000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "df1d606e-ed08-485c-9199-f40822f1f412",
+      "Name": "SaaSamMappingTable"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "7bbdca78-4dbb-a2fa-9dd4-1d095d52b569",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamExternalFieldCode",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "2353406b-adc1-0187-9465-59bd3d3be58d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamCreatioFieldCode",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "ba49a67f-256b-63b1-4338-b588558f55db",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamExternalSystemDataSource",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "0decfa63-ff84-b249-ac9e-43c7abab72c6",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamExternalSystemName",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "c697b008-c9a9-8051-9a4b-656c7ec1b256",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamCreatioObject",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "a9f3b3fa-6329-160e-db9f-bce56dd26da0",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamIsLookup",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "ab5e18f8-9dfe-924b-a6d7-22e0742e5956",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamCreatioLookupObject",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "d29802f6-53eb-56c0-ef9d-2c55f219d0f8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamRequiresSpecialFormatting",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "75eeed73-0501-555e-bc96-601ba600e8a2",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SaaSamCreatioLookupFieldCode",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

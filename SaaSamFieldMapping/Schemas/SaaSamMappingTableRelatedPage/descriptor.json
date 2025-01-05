@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f708c425-ea02-4ebe-bbe1-35b8f77d6c49",
+    "Name": "SaaSamMappingTableRelatedPage",
+    "ModifiedOnUtc": "\/Date(1731964257000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Field Mapping Table (Page settings)",
+    "DependsOn": []
+  }
+}

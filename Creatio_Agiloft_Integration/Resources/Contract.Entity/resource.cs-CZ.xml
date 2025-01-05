@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="cs-CZ">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Částka" />
+			<Item Name="Columns.Currency.Caption" Value="Měna" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Měnový kurz" />
+			<Item Name="Columns.Order.Caption" Value="Objednávka" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Částka, základní měna" />
+		</Items>
+	</Group>
+</Resources>

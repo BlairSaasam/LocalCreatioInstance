@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Shuma" />
+			<Item Name="Columns.Currency.Caption" Value="Valutë" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Kursi i këmbimit valutor" />
+			<Item Name="Columns.Order.Caption" Value="Porosia" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Shuma, valuta bazë" />
+		</Items>
+	</Group>
+</Resources>

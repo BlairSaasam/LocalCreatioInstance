@@ -1,0 +1,213 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "1c135f00-2d78-4b39-980b-f292d9e36849",
+      "A2": "SaaSamMappingTableBusinessRule",
+      "A5": "58e32152-256a-4d2b-be6e-4147b84a8625",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "c21822d8-a81f-4496-ab2c-e1991d279435",
+      "B8": "8.1.5.2177",
+      "AD1": "df1d606e-ed08-485c-9199-f40822f1f412",
+      "AD2": "EntitySchemaManager",
+      "AD3": "BusinessRule",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "JI0": "Terrasoft.Core.BusinessRules.BusinessRules",
+        "BRS1": [
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "a952251c-374f-8d2e-6673-0cf82eb92ff4",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "42968700-ccdd-1533-e0d5-5a5db19ea202",
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionFilterLookup",
+                    "UId": "e57f2b43-cc20-1ad5-a303-46bc20437dd3",
+                    "BRA2": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                      "UId": "f87bf97e-4ba6-45ac-824f-a9ea8aff1b6d",
+                      "BRX1": "null",
+                      "BRX2": "null"
+                    },
+                    "BRA3": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
+                      "UId": "95dd6269-ad6f-4a82-b292-f5fff6050113"
+                    },
+                    "BSFL1": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleFilterLookupExpression",
+                      "UId": "07ca8caf-2116-0ae0-71aa-746c8a595f78",
+                      "BRE1": "Lookup",
+                      "BRE3": "SaaSamExternalSystemDataSource",
+                      "BVP1": "SaaSamExternalSystemDataSource",
+                      "BVF1": "SaaSamExternalSystem"
+                    },
+                    "BSFR1": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleFilterLookupExpression",
+                      "UId": "05d10741-0b35-8a1d-e9f9-5c42d9b9b867",
+                      "BRE1": "Lookup",
+                      "BRE3": "SaaSamExternalSystem",
+                      "BVP1": "SaaSamExternalSystemName",
+                      "BVF1": "null"
+                    }
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "c2f213ff-aecf-efbf-cd2a-e9c088586047",
+                "BRT2": 2
+              }
+            ],
+            "BR3": "BusinessRule_9c0c0f9"
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "a78e1b70-700f-b957-8969-35fc2afaed21",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "2e820a89-0aeb-a6fa-0209-12b7ecd9d95e",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                  "UId": "9444d230-ebb6-81a2-fb9a-e6984b703607",
+                  "BCO1": {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                    "UId": "ffe10ebb-de0b-611f-76fc-deb9c90ff7c1",
+                    "BRE2": "AttributeValue",
+                    "BRX1": "SaaSamExternalSystemName"
+                  },
+                  "BCO2": {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                    "UId": "f6de79d6-b760-2191-8ca0-55ff5dd52c69",
+                    "BRE2": "AttributeValue",
+                    "BRX1": "SaaSamExternalSystemDataSource.SaaSamExternalSystem"
+                  },
+                  "BCO3": 3
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionSetValues",
+                    "UId": "8b8884dc-d2b3-7d07-edad-7b09b2c773ad",
+                    "BRA2": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                      "UId": "9e722dd2-56e5-4aab-b73f-6df171b57ead",
+                      "BRX1": "null",
+                      "BRX2": "null"
+                    },
+                    "BRA3": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
+                      "UId": "2bf1c02e-8f52-4bac-be34-d90d0d8be0e2"
+                    },
+                    "BSVS1": [
+                      {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleSetValueItem",
+                        "UId": "139f81b2-6b29-818d-b31e-8231e0f4da56",
+                        "BRA2": {
+                          "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                          "UId": "410c0e49-a768-c565-b0e0-84f1533f7079",
+                          "BRE1": "Lookup",
+                          "BRX1": "SaaSamExternalSystemDataSource",
+                          "BRX2": "null"
+                        },
+                        "BRA3": {
+                          "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleEmptyValueExpression",
+                          "UId": "d989f494-f759-5a98-b06f-5d723f0e5db3",
+                          "BRE1": "Lookup",
+                          "BVE1": "00000000-0000-0000-0000-000000000000"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "6a2d7f43-169b-5bb9-9b5e-11588b6054c4",
+                "BRT1": "SaaSamExternalSystemName"
+              }
+            ],
+            "BR3": "Autogenerated_a952251c-374f-8d2e-6673-0cf82eb92ff4_ClearValue",
+            "BR5": "a952251c-374f-8d2e-6673-0cf82eb92ff4",
+            "BR6": "e57f2b43-cc20-1ad5-a303-46bc20437dd3"
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "f3560396-7a6d-839c-313c-bc253f6be105",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "35279259-8bc4-5ed9-37df-a7c8e6aa2fcb",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                  "UId": "9982299c-a57e-1a75-f5fe-7d3785478673",
+                  "BCO1": {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                    "UId": "8738f8e4-0acf-bce4-5449-b5db7ea3c882",
+                    "BRE2": "AttributeValue",
+                    "BRX1": "SaaSamExternalSystemDataSource"
+                  },
+                  "BCO3": 1
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionSetValues",
+                    "UId": "b3c3b223-d542-ad76-8391-23281e77e8e4",
+                    "BRA2": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                      "UId": "09ca60dc-0f69-45c9-afd1-baf011e56041",
+                      "BRX1": "null",
+                      "BRX2": "null"
+                    },
+                    "BRA3": {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
+                      "UId": "796e6720-3b4d-443e-82cc-46da07e992c2"
+                    },
+                    "BSVS1": [
+                      {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleSetValueItem",
+                        "UId": "d65a3667-394d-eb4d-972d-f396b149660f",
+                        "BRA2": {
+                          "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                          "UId": "4b7ca122-23db-ac51-a01d-851c6c466bac",
+                          "BRX1": "SaaSamExternalSystemName",
+                          "BRX2": "null"
+                        },
+                        "BRA3": {
+                          "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                          "UId": "a0542de0-6cbb-4838-3afd-885352b554f5",
+                          "BRE1": "Lookup",
+                          "BRE2": "AttributeValue",
+                          "BRE3": "SaaSamExternalSystem",
+                          "BRX1": "SaaSamExternalSystemDataSource.SaaSamExternalSystem"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "0bc900d5-59fa-4917-3bf3-6f6136f46f7a",
+                "BRT1": "SaaSamExternalSystemDataSource"
+              }
+            ],
+            "BR3": "Autogenerated_a952251c-374f-8d2e-6673-0cf82eb92ff4_PopulateValue",
+            "BR5": "a952251c-374f-8d2e-6673-0cf82eb92ff4",
+            "BR6": "e57f2b43-cc20-1ad5-a303-46bc20437dd3"
+          }
+        ]
+      }
+    }
+  }
+}

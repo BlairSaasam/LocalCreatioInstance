@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Valoare" />
+			<Item Name="Columns.Currency.Caption" Value="Valută" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Rata de schimb" />
+			<Item Name="Columns.Order.Caption" Value="Comanda" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Suma, valuta de bază" />
+		</Items>
+	</Group>
+</Resources>

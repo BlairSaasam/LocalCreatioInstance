@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "b6484c79-82d8-4547-9223-bb6042f7361a",
+    "Name": "SaaSamSendDataToAgiloft",
+    "ModifiedOnUtc": "\/Date(1734484164000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "Send Data to Agiloft"
+  }
+}

@@ -1,0 +1,44 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "f708c425-ea02-4ebe-bbe1-35b8f77d6c49",
+      "A2": "SaaSamMappingTableRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "c21822d8-a81f-4496-ab2c-e1991d279435",
+      "B8": "0.0.0.0",
+      "AD1": "df1d606e-ed08-485c-9199-f40822f1f412",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "5cb251e3-f672-c942-32e3-e9c7f7cc7eb7",
+      "PageSchemaUId": "cfeb425a-e465-4eef-828c-c362c561482b",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": null,
+      "Role": null,
+      "TypeColumnValue": null
+    },
+    {
+      "UId": "fe83e2e8-05d5-383e-e554-4f7c82fdb396",
+      "PageSchemaUId": "cfeb425a-e465-4eef-828c-c362c561482b",
+      "IsDefault": false,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": true
+      },
+      "Role": null,
+      "TypeColumnValue": null
+    }
+  ],
+  "TypeColumnUId": null
+}
+    }
+  }
+}

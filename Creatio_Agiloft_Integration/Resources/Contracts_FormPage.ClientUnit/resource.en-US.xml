@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.Button_wj6drxx_caption.Value" Value="Send To Agiloft" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "3b1bd064-a358-4a27-b1f8-3172557c16bc",
+    "Name": "SaaSamSendContractToAgiloft",
+    "ModifiedOnUtc": "\/Date(1734310012000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Send Contract Record Information to Agiloft"
+  }
+}

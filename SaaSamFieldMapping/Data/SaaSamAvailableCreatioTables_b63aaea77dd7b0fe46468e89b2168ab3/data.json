@@ -1,0 +1,44 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1ad6c9e9-ae79-45c7-9304-4f7472449c79"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1733176515492+1300)\/"
+        },
+        {
+          "SchemaColumnUId": "a017da14-cef0-6c26-8dbb-90e9743a6abe",
+          "Value": "Contact"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1733176515492+1300)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a4712d70-279b-4256-96c7-49214d61458f"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1733176254427+1300)\/"
+        },
+        {
+          "SchemaColumnUId": "a017da14-cef0-6c26-8dbb-90e9743a6abe",
+          "Value": "Contract"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1733176254427+1300)\/"
+        }
+      ]
+    }
+  ]
+}

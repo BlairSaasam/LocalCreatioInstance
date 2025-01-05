@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Belopp" />
+			<Item Name="Columns.Currency.Caption" Value="Valuta" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Växelkurs" />
+			<Item Name="Columns.Order.Caption" Value="Beställning" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Belopp, basvaluta" />
+		</Items>
+	</Group>
+</Resources>

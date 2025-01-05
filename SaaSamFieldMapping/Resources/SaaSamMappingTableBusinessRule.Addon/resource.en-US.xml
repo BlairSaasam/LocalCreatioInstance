@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.a78e1b70-700f-b957-8969-35fc2afaed21.Caption" Value="ChildRule-a952251c-374f-8d2e-6673-0cf82eb92ff4-ClearValue" />
+			<Item Name="AddonConfig.Rules.a952251c-374f-8d2e-6673-0cf82eb92ff4.Caption" Value="Apply filter: External System Data Source" />
+			<Item Name="AddonConfig.Rules.f3560396-7a6d-839c-313c-bc253f6be105.Caption" Value="ChildRule-a952251c-374f-8d2e-6673-0cf82eb92ff4-PopulateValue" />
+			<Item Name="Caption" Value="Field Mapping Table (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

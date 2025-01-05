@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="金額" />
+			<Item Name="Columns.Currency.Caption" Value="通貨" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="為替レート" />
+			<Item Name="Columns.Order.Caption" Value="受注" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="金額、基軸通貨" />
+		</Items>
+	</Group>
+</Resources>

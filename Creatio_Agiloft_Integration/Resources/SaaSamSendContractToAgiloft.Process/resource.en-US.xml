@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask1.Caption" Value="Set Agiloft ID in Contract" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.UserTask1.Caption" Value="Send Data to Agiloft" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamAgiloftRecordId.Caption" Value="Agiloft Record ID" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamExternalDataSourceId.Caption" Value="External Data Source ID" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamExternalDataSourceId.DisplayValue" Value="[#External Table#].ToString()" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamExternalSystemId.Caption" Value="External System ID" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamExternalSystemId.DisplayValue" Value="[#External System#].ToString()" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamRecordId.Caption" Value="Record ID" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamRecordId.DisplayValue" Value="[#Record ID#].ToString()" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamTable.Caption" Value="Table" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamTable.DisplayValue" Value="[#Source Table#].ToString()" />
+			<Item Name="BaseElements.UserTask1.Parameters.SaaSamTestStr.Caption" Value="Test String" />
+			<Item Name="Caption" Value="Send Contract Record Information to Agiloft" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.ProcessExternalSystem.Caption" Value="External System" />
+			<Item Name="Parameters.ProcessExternalSystem.DisplayValue" Value="95653eb6-54d3-47b2-8b45-457ea62f3533" />
+			<Item Name="Parameters.ProcessExternalSystem.Value" Value="95653eb6-54d3-47b2-8b45-457ea62f3533" />
+			<Item Name="Parameters.ProcessExternalSystemTable.Caption" Value="External Table" />
+			<Item Name="Parameters.ProcessExternalSystemTable.DisplayValue" Value="396f60d4-4acb-469c-84a0-4d50998f34f0" />
+			<Item Name="Parameters.ProcessExternalSystemTable.Value" Value="396f60d4-4acb-469c-84a0-4d50998f34f0" />
+			<Item Name="Parameters.ProcessRecordID.Caption" Value="Record ID" />
+			<Item Name="Parameters.ProcessSourceTable.Caption" Value="Source Table" />
+			<Item Name="Parameters.ProcessSourceTable.DisplayValue" Value="Contract" />
+			<Item Name="Parameters.ProcessSourceTable.Value" Value="Contract" />
+		</Items>
+	</Group>
+</Resources>

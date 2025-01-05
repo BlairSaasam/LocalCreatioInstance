@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e1bc6f37-1db2-4873-8aa0-bdcec4d8f7d2",
+    "Name": "SaaSamAvailableCreatioTables",
+    "ModifiedOnUtc": "\/Date(1733176660000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "SaaSam Available Creatio Tables",
+    "DependsOn": []
+  }
+}

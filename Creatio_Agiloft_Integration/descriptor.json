@@ -1,0 +1,34 @@
+﻿{
+  "Descriptor": {
+    "UId": "3c9ccc73-d99c-8e75-726b-8c420f549936",
+    "Name": "Creatio_Agiloft_Integration",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1733098226000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/Creatio_Agiloft_Integration.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      },
+      {
+        "UId": "7bde2918-b43d-0059-3a3c-ae135783af9d",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtOrderContractMgmtApp",
+        "Type": 1
+      },
+      {
+        "UId": "928f844c-9dd6-b8c8-7180-78b9ebe74917",
+        "Name": "SaaSamBaseScriptLibrary"
+      },
+      {
+        "UId": "fb480d02-3bc2-b018-911c-db786eccbef0",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtContract",
+        "Type": 1
+      }
+    ]
+  }
+}

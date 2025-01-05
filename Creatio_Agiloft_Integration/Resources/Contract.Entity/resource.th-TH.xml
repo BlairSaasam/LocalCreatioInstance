@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="จำนวน" />
+			<Item Name="Columns.Currency.Caption" Value="สกุลเงิน" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="อัตราแลกเปลี่ยน" />
+			<Item Name="Columns.Order.Caption" Value="คำสั่งซื้อ" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="จำนวนเงินฐาน" />
+		</Items>
+	</Group>
+</Resources>

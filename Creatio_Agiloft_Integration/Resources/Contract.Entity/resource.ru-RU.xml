@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="EventsProcessSchema.BaseElements.ContractDeleting.Caption" Value="ContractDeleting" />
+			<Item Name="EventsProcessSchema.BaseElements.ContractSaving.Caption" Value="ContractSaving" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptContractDeleting.Caption" Value="Преудаление Договора" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptContractSaved.Caption" Value="Постобработка сохранения Договора" />
+			<Item Name="EventsProcessSchema.BaseElements.ScriptContractSaving.Caption" Value="Пресохранение Договора" />
+			<Item Name="EventsProcessSchema.BaseElements.StartMessage1.Caption" Value="ContractSaved" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Пул 1" />
+		</Items>
+	</Group>
+</Resources>

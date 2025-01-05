@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="bg-BG">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Сума" />
+			<Item Name="Columns.Currency.Caption" Value="Валута" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Валутен курс" />
+			<Item Name="Columns.Order.Caption" Value="Поръчка" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Сума, базова валута" />
+		</Items>
+	</Group>
+</Resources>

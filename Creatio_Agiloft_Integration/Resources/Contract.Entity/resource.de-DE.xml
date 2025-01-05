@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="de-DE">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="Betrag" />
+			<Item Name="Columns.Currency.Caption" Value="Währung" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="Wechselkurs" />
+			<Item Name="Columns.Order.Caption" Value="Bestellung" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="Betrag, Basiswährung" />
+		</Items>
+	</Group>
+</Resources>

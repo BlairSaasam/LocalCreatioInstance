@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Amount.Caption" Value="액수" />
+			<Item Name="Columns.Currency.Caption" Value="통화" />
+			<Item Name="Columns.CurrencyRate.Caption" Value="환율" />
+			<Item Name="Columns.Order.Caption" Value="주문" />
+			<Item Name="Columns.PrimaryAmount.Caption" Value="금액, 기준 통화" />
+		</Items>
+	</Group>
+</Resources>

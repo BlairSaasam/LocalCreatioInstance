@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.e04a4252-d5c7-a27c-53d4-c96b6e114701.Caption" Value="Show elements: 2" />
+			<Item Name="Caption" Value="Field Mapping Modal Page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

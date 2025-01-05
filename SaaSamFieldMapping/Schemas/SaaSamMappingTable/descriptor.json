@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "df1d606e-ed08-485c-9199-f40822f1f412",
+    "Name": "SaaSamMappingTable",
+    "ModifiedOnUtc": "\/Date(1734308562000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Field Mapping Table"
+  }
+}

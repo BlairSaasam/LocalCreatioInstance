@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "175c019c-f85d-4520-86ef-185030471e6e",
+    "Name": "SaaSamFieldMapping_Detail",
+    "ModifiedOnUtc": "\/Date(1731962731000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Field Mapping detail",
+    "DependsOn": []
+  }
+}
